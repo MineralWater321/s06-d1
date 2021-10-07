@@ -1,0 +1,20 @@
+/*External CSS syntax
+	selector {property:  value; property:  value;}
+	selector {
+	property:  ;
+	property:  ;
+	}
+*/
+/*Universal Selector used to target all elements*/
+* {
+	font-family: "Courier New", monospace;
+	font-size:  20px;
+	color: red;
+}
+
+h2 {
+	color: blue;
+}
+p {
+	color: green;
+}
