@@ -9,12 +9,30 @@
 * {
 	font-family: "Courier New", monospace;
 	font-size:  20px;
-	color: red;
+}
+
+h1 {
+	color: yellow !important;
 }
 
 h2 {
 	color: blue;
 }
-p {
-	color: green;
+
+#zuitt-motto {
+	letter-spacing: 5px;
+}
+
+.offering-item {
+	text-transform: uppercase;
+}
+
+#offering-1 {
+	color: #1f567a;
+}
+
+input[required]{
+	border-width: 2px;
+	border-style: solid;
+	border-color: navy;
 }
