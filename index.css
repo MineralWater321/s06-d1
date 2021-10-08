@@ -36,3 +36,49 @@ input[required]{
 	border-style: solid;
 	border-color: navy;
 }
+
+/* Adjacent Sibling Selector (+) */
+h3 + img{
+	height: 300px;
+	width: 300px;
+	border-radius: 150px;
+}
+
+/*div + p {
+	background-color:  yellow;
+}*/
+
+/*General Sibling Selector (~)
+	-used to select all elements that are next siblings of a specified element
+
+
+div ~ p{
+	background-color:  yellow;
+}
+*/
+
+/* Child selector (>)
+	used to select all elements that are the children of a specified element	
+
+
+div > p{
+	background-color:  yellow;
+}
+
+*/
+
+/*Descendant Selector
+	used to match all elements that are descendants of a specified element
+*/
+
+div p{
+	background-color: yellow;
+}
+
+/* Multiple Selector
+	used to select multiple elements that is separated by a comma
+
+h3, p, ol, h1{
+	property:  value;
+}
+*/
